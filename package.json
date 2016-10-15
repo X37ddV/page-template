@@ -1,0 +1,22 @@
+{
+  "name": "page-template",
+  "version": "1.0.0",
+  "description": "This is a template I'm using for starting Javascript projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/X37ddV/page-template.git"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "X37ddV",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/X37ddV/page-template/issues"
+  },
+  "homepage": "https://github.com/X37ddV/page-template#readme"
+}
