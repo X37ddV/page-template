@@ -4,19 +4,35 @@
   "description": "This is a template I'm using for starting Javascript projects.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/X37ddV/page-template.git"
   },
   "keywords": [
-    "template"
+    "template",
+    "vue",
+    "typescript",
+    "webpack"
   ],
-  "author": "X37ddV",
+  "author": "X37ddV <X37ddV@iCloud.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/X37ddV/page-template/issues"
   },
-  "homepage": "https://github.com/X37ddV/page-template#readme"
+  "homepage": "https://github.com/X37ddV/page-template#readme",
+  "devDependencies": {
+    "css-loader": "^0.26.0",
+    "typescript": "^2.0.10",
+    "typings": "^2.0.0",
+    "vue": "^2.0.7",
+    "vue-loader": "^9.9.5",
+    "vue-ts-loader": "^0.0.3",
+    "vue-typescript-component": "^0.6.1",
+    "vue-typescript-import-dts": "^2.0.0",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
 }
