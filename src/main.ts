@@ -1,7 +1,7 @@
 import Vue = require('vue')
-import * as Hello from './components/hello.vue'
+import * as App from './components/app.vue'
 
 new Vue({
     el: '#app',
-    render: (h) => h(Hello)
+    render: (h) => h(App)
 });
